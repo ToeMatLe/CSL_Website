@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<rss version="2.0">
+
+<channel>
+	<title>UCLA Communications Systems Laboratory</title>
+	<link>http://www.seas.ucla.edu/csl/index.htm</link>
+	<description>Signals and Systems Research Group</description>
+
+	<category>News</category>
+        <item>
+			<title>IEEE Transactions on Communications</title>
+			<description>Congratulations Adam Williamson for the journal paper "Variable-length Convolutional Coding for Short Blocklengths with Decision Feedback" being accepted for publication in the IEEE Transactions on Communications as a Transactions Paper Submissions.</description>
+		</item>
+        <item>
+			<title>ISIT 2015</title>
+			<description>Congratulations to Kasra Vakilinia for the manuscript "RCA Analysis of the Polar Codes and the use of Feedback to aid Polarization at Short Blocklengths" and Sudarsan V.S. Ranganathan for the manuscript "On the Girth of (3,L) Quasi-Cyclic LDPC Codes Based on Complete Photographs" being accepted for publication in the 2015 IEEE International Symposium on Information Theory.</description>
+		</item>
+		<item>
+			<title>2015 CODESS Research Review</title>
+			<link>http://www.uclacodess.org/codess-workshop</link>
+			<description>The 2015 CODESS Research Review occurred on February 20, 2015.</description>
+		</item>
+		<item>
+			<title>2015 UCLA Electrical Engineering Department Research Review</title>
+			<link>http://www.ee.ucla.edu/people/industry/industry-relations/annual-research-review/2015-annual-research-review</link>
+			<description>The 2015 UCLA Electrical Engineering Department Research Review occurred on February 27, 2015. To register and learn more about this event, please use the link.</description>
+		</item>
+
+	<category>Recent Publications</category>
+		<item>
+			<title>"Variable-length Convolutional Coding for Short Blocklengths with Decision Feedback"</title>
+			<link></link>
+			<description></description>
+		</item>
+		<item>
+			<title>"On the Girth of (3,L) Quasi-Cyclic LDPC Codes Based on Complete Photographs"</title>
+			<link></link>
+			<description></description>
+		</item>
+		<item>
+			<title>"RCA Analysis of the Polar Codes and the use of Feedback to aid Polarization at Short Blocklengths"</title>
+			<link></link>
+			<description></description>
+		</item>
+
+	<webMaster>cslweb@seas.ucla.edu</webMaster>
+	<copyright>2013 UCLA CSL</copyright>
+</channel>
+
+</rss>

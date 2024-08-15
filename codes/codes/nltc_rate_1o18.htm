@@ -1,0 +1,2427 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<link rel=File-List href="nltc_rate_1o18_files/filelist.xml">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+b\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]-->
+<title>Rate 1/18 NLTC</title>
+<style>
+<!--
+ /* Font Definitions */
+@font-face
+	{font-family:"Times New Roman";
+	panose-1:2 2 6 3 5 4 5 2 3 4;}
+@font-face
+	{font-family:"Courier New";
+	panose-1:2 7 3 9 2 2 5 2 4 4;}
+ /* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-right:0pt;
+	text-indent:0pt;
+	margin-top:0pt;
+	margin-bottom:0pt;
+	text-align:left;
+	font-family:"Times New Roman";
+	font-size:10.0pt;
+	color:black;}
+ol
+	{margin-top:0in;
+	margin-bottom:0in;
+	margin-left:-2197in;}
+ul
+	{margin-top:0in;
+	margin-bottom:0in;
+	margin-left:-2197in;}
+@page
+	{size:8.0302in 11.0in;}
+-->
+</style>
+<!--[if gte mso 9]><xml>
+ <o:shapedefaults v:ext="edit" spidmax="3074" fill="f" fillcolor="white [7]"
+  strokecolor="black [0]">
+  <v:fill color="white [7]" color2="white [7]" on="f"/>
+  <v:stroke color="black [0]" color2="white [7]" insetpen="t">
+   <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+   <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+   <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+   <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+   <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+  </v:stroke>
+  <v:shadow color="#ccc [4]"/>
+  <v:textbox inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+ </o:shapedefaults><o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body style='margin:0'>
+
+<div style='position:absolute;width:8.0459in;height:10.-90in'>
+<!--[if gte vml 1]><v:shapetype id="_x0000_t202" coordsize="21600,21600" o:spt="202"
+ path="m,l,21600r21600,l21600,xe">
+ <v:stroke joinstyle="miter"/>
+ <v:path gradientshapeok="t" o:connecttype="rect"/>
+</v:shapetype><v:shape id="_x0000_s1026" type="#_x0000_t202" style='position:absolute;
+ left:169.16pt;top:36.44pt;width:330pt;height:103.5pt;z-index:2;
+ mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' filled="f"
+ fillcolor="white [7]" stroked="f" strokecolor="black [0]" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:textbox style='mso-column-margin:2mm' inset="2.88pt,2.88pt,2.88pt,2.88pt"/>
+</v:shape><![endif]--><![if !vml]><span style='position:absolute;z-index:2;
+left:226px;top:49px;width:440px;height:138px'>
+
+<table cellpadding=0 cellspacing=0>
+ <tr>
+  <td width=440 height=138 style='vertical-align:top'><![endif]>
+  <div v:shape="_x0000_s1026" style='padding:2.88pt 2.88pt 2.88pt 2.88pt'
+  class=shape>
+  <p class=MsoNormal><span lang=en-US style='font-size:12.0pt;font-weight:bold;
+  language:en-US'>Rate 1/18 nonlinear trellis code output labeling</span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'><span
+  style='direction:ltr;unicode-bidi:embed;font-family:Symbol;font-size:10.0pt;
+  language:x-none;color:black'>¨</span><span style='width:29.25pt'>&nbsp;</span><span
+  lang=en-US style='font-size:12.0pt;font-weight:bold;language:en-US'>Designed for the 6-user OR-MAC.</span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'><span
+  style='direction:ltr;unicode-bidi:embed;font-family:Symbol;font-size:10.0pt;
+  language:x-none;color:black'>¨</span><span style='width:29.25pt'>&nbsp;</span><span
+  lang=en-US style='font-size:12.0pt;font-weight:bold;language:en-US'><span
+  dir=ltr></span>64 states</span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'><span
+  style='direction:ltr;unicode-bidi:embed;font-family:Symbol;font-size:10.0pt;
+  language:x-none;color:black'>¨</span><span style='width:29.25pt'>&nbsp;</span><span
+  lang=en-US style='font-size:12.0pt;font-weight:bold;language:en-US'>S denotes the current state</span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'><span
+  style='direction:ltr;unicode-bidi:embed;font-family:Symbol;font-size:10.0pt;
+  language:x-none;color:black'>¨</span><span style='width:29.25pt'>&nbsp;</span><span
+  lang=en-US style='font-size:12.0pt;font-style:italic;font-weight:bold;
+  language:en-US'>u </span><span lang=en-US style='font-size:12.0pt;font-weight:
+  bold;language:en-US'>denotes the data bit</span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'><span
+  style='direction:ltr;unicode-bidi:embed;font-family:Symbol;font-size:10.0pt;
+  language:x-none;color:black'>¨</span><span style='width:29.25pt'>&nbsp;</span><span
+  lang=en-US style='font-size:12.0pt;font-weight:bold;language:en-US'>Output in octal notation</span></p>
+  <p class=MsoNormal style='margin-left:36.0pt;text-indent:-36.0pt'><span
+  style='direction:ltr;unicode-bidi:embed;font-family:Symbol;font-size:10.0pt;
+  language:x-none;color:black'>·</span><span style='width:31.5pt'>&nbsp;</span><span
+  lang=en-US style='font-size:12.0pt;font-weight:bold;language:en-US'>Ones density  1/8</span></p>
+  </div>
+  <![if !vml]></td>
+ </tr>
+</table>
+
+</span><![endif]><!--[if gte vml 1]><v:rect id="_x0000_s1040" style='position:absolute;
+ left:29.3pt;top:24.84pt;width:111.75pt;height:112.5pt;z-index:3;
+ mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt'
+ o:preferrelative="t" filled="f" fillcolor="white [7]" stroked="f"
+ strokecolor="black [0]" insetpen="t" o:cliptowrap="t">
+ <v:fill color2="white [7]"/>
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:imagedata src="nltc_rate_1o18_files/image293.jpg" o:title="ucla_logo"/>
+ <v:shadow color="#ccc [4]"/>
+ <v:path o:extrusionok="f"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:rect><![endif]--><![if !vml]><span style='position:absolute;z-index:3;
+left:39px;top:33px;width:149px;height:150px'><img width=149 height=150
+src="nltc_rate_1o18_files/image293.jpg" v:shapes="_x0000_s1040"></span><![endif]><!--[if gte vml 1]><![if mso | ie]><v:shapetype
+ id="_x0000_t201" coordsize="21600,21600" o:spt="201" path="m,l,21600r21600,l21600,xe">
+ <v:stroke joinstyle="miter"/>
+ <v:path shadowok="f" o:extrusionok="f" strokeok="f" fillok="f" o:connecttype="rect"/>
+ <o:lock v:ext="edit" shapetype="t"/>
+</v:shapetype><v:shape id="_x0000_s1025" type="#_x0000_t201" style='position:absolute;
+ left:117pt;top:148.5pt;width:393pt;height:603.54pt;z-index:1;
+ mso-wrap-distance-left:2.88pt;mso-wrap-distance-top:2.88pt;
+ mso-wrap-distance-right:2.88pt;mso-wrap-distance-bottom:2.88pt' stroked="f"
+ strokecolor="black [0]" o:cliptowrap="t">
+ <v:stroke color2="white [7]">
+  <o:left v:ext="view" color="black [0]" color2="white [7]" weight="0"/>
+  <o:top v:ext="view" color="black [0]" color2="white [7]" weight="0"/>
+  <o:right v:ext="view" color="black [0]" color2="white [7]" weight="0"/>
+  <o:bottom v:ext="view" color="black [0]" color2="white [7]" weight="0"/>
+  <o:column v:ext="view" color="black [0]" color2="white [7]"/>
+ </v:stroke>
+ <v:shadow color="#ccc [4]"/>
+ <v:textbox inset="0,0,0,0">
+ </v:textbox>
+</v:shape><![endif]><![endif]-->
+
+<table v:shapes="_x0000_s1025" cellpadding=0 cellspacing=0 width=524
+ height=805 border=0 dir=ltr style='width:393.0pt;height:603.54pt;border-collapse:
+ collapse;position:absolute;top:148.5pt;left:117.0pt;z-index:1'>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>S</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>u</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>Output</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>u</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>Output</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>S</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>u</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>Output</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>u</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>Output</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>000000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000003</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000014</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>100000</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000024</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000043</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>000001</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000060</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000500</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>100001</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000110</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>003200</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>000010</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001200</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>006000</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>100010</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>004400</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>070000</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>000011</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>050000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>120000</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>100011</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>300000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000203</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>000100</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000110</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002002</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>100100</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>010001</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000034</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>000101</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000005</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000220</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>100101</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>400002</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001140</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>000110</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000440</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>011000</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>100110</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002200</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>024400</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>000111</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>024000</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>140000</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>100111</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000402</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001003</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>001000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000600</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000021</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>101000</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001001</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000016</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>001001</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001010</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>200002</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>101001</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000420</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000340</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>001010</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002004</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>004040</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>101010</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>014000</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>062000</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>001011</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>010100</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>060000</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>101011</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>500000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>400003</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>001100</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001002</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>200020</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>101100</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>400020</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>004005</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>001101</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>100010</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>010040</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>101101</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>020040</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000112</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>001110</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000401</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002100</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>101110</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>010200</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>041400</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>001111</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>020200</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>404000</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>101111</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>102000</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002005</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>010000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000050</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000120</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>110000</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000300</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>003400</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>010001</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002001</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000006</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>110001</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>004002</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000031</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>010010</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>030000</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000600</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>110010</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000044</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>700000</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>010011</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>005000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>240000</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>110011</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>600000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000403</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>010100</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>020002</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>004001</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>110100</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000204</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000540</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>010101</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000030</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000404</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>110101</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>003000</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>020003</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>010110</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001100</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000240</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>110110</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>004010</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>140020</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>010111</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>012000</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>040004</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>110111</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>200004</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>200003</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>011000</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002010</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000140</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>111000</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>004004</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001600</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>011001</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000201</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001020</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>111001</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002040</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>010011</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>011010</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>020400</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>010002</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>111010</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>040020</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>300100</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>011011</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>044000</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>100004</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>111011</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>400004</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001005</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>011100</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000410</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001040</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>111100</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000104</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000212</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>011101</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>000101</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>004200</span></p>
+  </td>
+  <td width=52 height=24 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=24 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>111101</span></p>
+  </td>
+  <td width=31 height=24 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=24 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>001400</span></p>
+  </td>
+  <td width=28 height=24 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=24 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>002021</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>011110</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>040002</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>020020</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>111110</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>200040</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.2588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>114000</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>011111</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.0pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>010004</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>010010</span></p>
+  </td>
+  <td width=52 height=25 valign=Top style='width:39.2726pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border-left:solid black 1.0pt;border-right:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'>&nbsp;</span></p>
+  </td>
+  <td width=53 height=25 valign=Top style='width:39.2727pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>111111</span></p>
+  </td>
+  <td width=31 height=25 valign=Top style='width:23.1818pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>0</span></p>
+  </td>
+  <td width=60 height=25 valign=Top style='width:45.2727pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>440000</span></p>
+  </td>
+  <td width=28 height=25 valign=Top style='width:20.7273pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal style='text-align:center;text-align:center'><span
+  lang=en-US style='language:en-US'><span dir=ltr></span>1</span></p>
+  </td>
+  <td width=64 height=25 valign=Top style='width:48.2726pt;height:18.7588pt;
+  padding-left:2.88pt;padding-right:2.88pt;padding-top:2.88pt;padding-bottom:
+  2.88pt;border:solid black 1.0pt'>
+  <p class=MsoNormal><span lang=en-US style='font-family:"Courier New";
+  language:en-US'>400005</span></p>
+  </td>
+ </tr>
+</table>
+
+
+</div>
+
+</body>
+
+</html>

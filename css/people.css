@@ -1,0 +1,20 @@
+
+figure {
+    display: inline-block;
+}
+
+#people {
+    list-style-type: inline-flex;
+    margin: 0;
+    padding: 10px;
+    padding-top: 20px;
+}
+
+#people li {
+    display: inline;
+    padding: 39px;
+}
+
+#person:hover {
+    opacity: 0.4;
+}

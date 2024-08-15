@@ -1,0 +1,179 @@
+<div class="jumbotron">
+<div class="container">
+  <h1>Published Codes and Design Tools</h1>
+  <p></p>
+</div>
+</div>
+<!-- END HEADER -->
+
+<!-- PAGE CONTENT -->
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h1 class="panel-title"><strong>LDPC HRC and IRC proto-matrices for FSO Channel</strong></h1>
+    </div>
+    <div class="panel-body">
+      <p>Below is a download link for the proto-matrixes</p>
+      <ul>
+      <li><a href="/csl/codes/LDPC_HRC_and_IRC_proto-matrices_for_FSO_Channel.txt">LDPC HRC and IRC proto-matrices for FSO Channel</a></li>
+    </ul>
+    </div>
+  </div>
+
+  <div class="panel panel-default">
+    <div class="panel-heading">
+      <h1 class="panel-title"><strong>Optimized weights for N-2D-NMS decoders</strong></h1>
+    </div>
+    <div class="panel-body">
+      <p>Below is a download link for the LDPC codes used in the N-2D-NMS decoder referenced in our ISTC 2021 paper.</p>
+      <p>Included below is a file called <code>README.md</code> which provides documentation and describes the format of each code.</p>
+      <p>Also included are two additional zip files. One for a (3069,1032) PBRL code designed by CSL titled <code>PBRL-3096-1032.zip</code> and another for the Digital Video Broadcast Satellite Second Generation (DVB-S2) titled <code>DVBS2-16200-7200.zip</code></p>
+      <ul>
+      <li><a href="/csl/files/codes/N2DNMS_Files/README.md">Readme File</a></li>
+      <li><a href="/csl/files/codes/N2DNMS_Files/PBRL-3096-1032.zip">PBRL Code Description and Weights</a></li>
+      <li><a href="/csl/files/codes/N2DNMS_Files/DVBS2-16200-7200.zip">DVB-S2 Code Description and Weights</a></li>
+    </ul>
+    </div>
+  </div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h1 class="panel-title"><strong>LDPC Codes for Flash Memories</strong></h1>
+  </div>
+  <div class="panel-body">
+    <p>The LDPC codes for flash memories can be found in the .zip file that you can download below. The zip file includes three .txt LDPC parity check matrices. Each line represents an edge between a check node and variable node. The third number in each line is just an indicator with 0 indicating the end of the file.</p>
+    <p>The degree distribution of the codes is as follows:</p>
+    <p>
+      Code 1:<br>
+      &lambda;(x) = 2.0054E<sup>-5</sup>x<sup>0</sup> + 0.035776x<sup>1</sup> + 0.39869x<sup>2</sup> + 0.0084827x<sup>8</sup> + 0.037701x<sup>9</sup> + 0.51933x<sup>18</sup><br>
+      &rho;(x) = 0.15662x<sup>54</sup> + 0.84338x<sup>55</sup>
+    </p>
+    <p>
+      Code 2:<br>
+      &lambda;(x) = 1.7701E<sup>-5</sup>x<sup>0</sup> + 0.031579x<sup>1</sup> + 0.46923x<sup>3</sup> + 0.0074877x<sup>8</sup> + 0.033278x<sup>9</sup> + 0.45841x<sup>18</sup><br>
+      &rho;(x) = 0.0010975x<sup>61</sup> + 0.73267x<sup>62</sup> + 0.26623x<sup>63</sup>
+    </p>
+    <p>
+      Code 3:<br>
+      &lambda;(x) = 0.032172x<sup>1</sup> + 0.002681x<sup>2</sup> + 0.55764x<sup>3</sup> + 0.40751x<sup>23</sup><br>
+      &rho;(x) = 0.10366x<sup>57</sup> + 0.89634x<sup>58</sup>
+    </p>
+    <a href="/csl/files/LDPC_Flash.zip">Download</a>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h1 class="panel-title"><strong>Nonlinear Trellis Codes</strong></h1>
+  </div>
+  <div class="panel-body">
+    <p>These are the specifications of the nonlinear trellis codes presented in “Non linear Trellis Codes for Binary-Input Binary-Output Multiple Access Channels With Single-User Decoding”, M. Griot, A.I. Vila Casado, W.-Y. Weng, H. Chan, J. Wang and R. Wesel. IEEE Transactions on Communications, vol. 60, No. 2, pp 364 - 374, February 2012.</p>
+    <p>All the codes are feed-forward encoders with the following trellis structure:</p>
+    <p>
+      <img src="/csl/images/trellis_structure.png" alt="Trellis Structure">
+    </p>
+    <ul>
+      <li><a target="_blank" href="/csl/files/codes/nltc_rate_1o17.htm">Rate 1/17 nonlinear trellis code  for 6-user OR-MAC &raquo;</a></li>
+      <li><a target="_blank" href="/csl/files/codes/nltc_rate_1o18.htm">Rate 1/18 nonlinear trellis code  for 6-user OR-MAC &raquo;</a></li>
+      <li><a target="_blank" href="/csl/files/codes/nltc_rate_1o20.htm">Rate 1/20 nonlinear trellis code  for 6-user OR-MAC &raquo;</a></li>
+      <li><a target="_blank" href="/csl/files/codes/nltc_rate_1o30.htm">Rate 1/30 nonlinear trellis code  for 6-user CI-MAC &raquo;</a></li>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  <h1 class="panel-title"><strong>Row Combining Codes</strong></h1>
+  </div>
+  <div class="panel-body">
+    <p>The row combining codes can be found in the .zip file below. The codes are in the sub-matrix format. That is, each entry corresponds to a (p x p) sub-matrix that can be either the all-zero matrix or an identity matrix shifted to the right. The cyclic shift identifies the non-zero matrices and the zero-matrices are identified by a -1.</p>
+    <a href="/csl/files/Row_combining_codes.zip">Download</a>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  <h1 class="panel-title"><strong>Cross-Layer Optimization</strong></h1>
+  </div>
+  <div class="panel-body">
+    <p>A cross-layer optimization tool based on <a target="_blank" href="/csl/files/publications/Courtade_TCOM2011.pdf">TCOM2011</a> can be found in the .zip file below. The .zip file includes a .m file and a .fig file. In order to run the code, ensure that the two files are in the same folder. Then use MATLAB to run the .m file by typing the name of the .m file in MATLAB command window.</p>
+    <p><a href="/csl/files/cross_layer.zip">Download</a></p>
+    <p>
+      Please cite as:<br>
+      T. A. Courtade and R. D. Wesel, "Optimal Allocation of Redundancy Between Packet-Level Erasure Coding and Physical-Layer Channel Coding in Fading Channels," IEEE Transactions on Communications, Vol. 59, No. 8, pp 2101 - 2109, August 2011.
+    </p>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  <h1 class="panel-title"><strong>Tight Bounds on the Mutual Information of the Binary Input AWGN Channel</strong></h1>
+  </div>
+  <div class="panel-body">
+    <p>As mentioned from [33] located in the Conference Publication section.  The files below are Matlab code implementing the bounds.</p>
+    <ul>
+      <li><a href="http://www.ee.ucla.edu/%7Ewesel/documents/CISS2001/Bincaplo.m"> Bincaplo.m </a></li>
+      <li><a href="http://www.ee.ucla.edu/%7Ewesel/documents/CISS2001/Bincapup.m"> Bincapup.m </a></li>
+      <li><a href="http://www.ee.ucla.edu/%7Ewesel/documents/CISS2001/Capsnr.m"> Capsnr.m </a></li>
+      <li><a href="http://www.ee.ucla.edu/%7Ewesel/documents/CISS2001/Q.m"> Q.m </a></li>
+    </ul>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  <h1 class="panel-title"><strong>Non-Binary LDPC Codes</strong></h1>
+  </div>
+  <div class="panel-body">
+    <p>Non-binary LDPC with symbols from GF(256) for three different information blocks of 96, 192, and 288 bits used in <a href="/csl/files/publications/1569898007.pdf">[Vakilinia et al. ISIT 2014]</a> and <a href="/csl/files/publications/ITW_2014_Kasra_4.pdf">[Vakilinia et al. ITW 2014]</a> </p>
+    <p>
+      The format of the .txt files (check matrices) is as follows:<br>
+
+      number of variable nodes<br>
+      number of check nodes<br>
+      number of edges<br>
+      highest variable-node degree<br>
+      highest check-node degree<br>
+      variable-node number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;degree<br>
+      check-node number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;degree<br>
+      variable-node number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;check-node number<br>
+    </p>
+    <ul>
+      <li><a href="codes/15_3_27_256_2_9_2.txt"> Download (96)</a></li>
+      <li><a href="codes/32_8_56_256_2_7_2.txt"> Download (192)</a></li>
+      <li><a href="codes/48_12_84_256_2_7.txt"> Download (288)</a></li>
+    </ul>
+  </div>
+</div>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  <h1 class="panel-title"><strong>Rate-Compatible PBRL LDPC codes</strong></h1>
+  </div>
+  <div class="panel-body">
+    <p>
+      Rate-compatible protograph-based Raptor-like (PBRL) LDPC codes for information block sizes of 16368 and 16384.<br><br>
+      The format of the .txt files (check matrices)  is as follows:<br><br>
+      # variable nodes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # check nodes &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; # edges<br>
+      variable-node number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; degree &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 punctured, 1 transmitted<br>
+      check-node number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; degree<br>
+      variable-node number &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; check-node number
+    </p>
+    <ul>
+      <li><a href="codes/raptor_r34_k16368_twoparallel.txt"> PBRL_16368 </a></li>
+      <li><a href="codes/raptor_v33_k16384.txt"> PBRL_16384 </a></li>
+      <li><a href="codes/K_1032_TCOM_3_43_ACEPEG_6_12_Chinn.txt"> K 1032 TCOM 3 43 ACEPEG 6 12 Chinn </a></li>
+      <li><a href="codes/PBRL_NoParallelEdge_K192_N256_576.txt"> PBRL NoParallelEdge K192 N256 576 </a></li>
+      <li><a href="codes/PNPBRL_OneParallelEdge_K192_N256_576.txt"> PNPBRL One Parallel Edge K192 N256 576 </a></li>
+    </ul>
+  </div>
+</div>
+
+<h1 id="codes">Manuscripts</h1>
+<div class="panel panel-default">
+  <div class="panel-heading">
+  <h1 class="panel-title"><strong>High-Rate Irregular LDPC Code Design</strong></h1>
+  </div>
+  <div class="panel-body">
+    <p>
+      This manuscript catalogs all stopping sets up to weight five of Low-density Parity-Check (LDPC) codes. The catalog is related, in general, to graphs and connected components and, in particular, to the design of high-rate irregular LDPC codes with a moderate block-length (n=2000 bits) by tackling the problem of minimum distance of an LDPC code. A code design example by utilizing this catalog is explained in paper [118] of our Conference Publications. The conference paper also provides an enumeration algorithm to enumerate these stopping sets in an LDPC code. Such a catalog, along with a low-complexity enumeration algorithm, can be used in general to also build (high-rate) LDPC codes or to label Non-binary LDPC (NB-LDPC) codes as explained in [118].
+    </p>
+    <ul>
+      <li><a href="/csl/manuscripts/ISIT_2014_ss_catalog.pdf"> LDPC Codes - Stopping Set Catalog </a></li>
+    </ul>
+  </div>
+</div>
+</div>

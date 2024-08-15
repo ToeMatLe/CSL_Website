@@ -1,0 +1,941 @@
+<script>
+$('.modal').on('hide.bs.modal', function() {
+     var memory = $(this).html();
+     $(this).html(memory);
+});
+</script>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Past Seminars</h1>
+  </div>
+</div>
+
+<div class="container">
+  <h1>Past Seminars</h1>
+  <p>Clicking on a seminar will lead to the seminar video recording, as well as abstract, bios, and related references.</p>
+  <ul class="list-group">
+    <!-- Template
+   <a class="list-group-item" data-toggle="modal" data-target="#">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="" alt="" width="" height =""> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title:</strong><br>
+        <strong>Speaker:</strong><br>
+        <strong>Date:</strong><br>
+        <strong>Location:</strong><br><br>
+      </div>
+    </div>
+  </a>
+  -->
+  <a class="list-group-item" data-toggle="modal" data-target="#2023-06-09">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Mathew_Joshua.JPG" alt="Joshua Mathew" width="150" height ="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title: </strong>Resource Efficient FPGA Implementations of CRC-Aided TB-CC Decoder and AWGN Generator<br>
+        <strong>Speaker: </strong>Joshua Mathew<br>
+        <strong>Date:</strong> Friday, June 9, 2023 at 11:00 am in Los Angeles, Pacific Standard Time<br>
+        <strong>Location: </strong>Zoom and Elliot Room<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2023-02-10">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Yuval_Cassuto.jpg" alt="Yuval Cassuto" width="150" height ="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title:</strong>Efficient Genomic Compression using a Hierarchy of Block Codes and Novel Alignment Algorithms<br>
+        <strong>Speaker:</strong>Yuval Cassuto<br>
+        <strong>Date:</strong> Friday, February 10, 2023 at 9:00 am in Los Angeles, Pacific Standard Time<br>
+        <strong>Location:</strong> Tesla Room<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2023-01-20">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Thomas Wiegart.jpg" alt="Thomas Wiegart" width="150" height ="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title:</strong>Joint Forward Error Correction and Probabilistic Shaping with
+        Polar Codes Part 1 and Part 2<br>
+        <strong>Speaker:</strong>Thomas Wiegart<br>
+        <strong>Date:</strong> Friday, January 20, 2023 at 9:00 am in Los Angeles, Pacific Standard Time<br>
+        <strong>Location:</strong> Zoom<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2023-01-06">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="images/seminar/Phillip_Mohr.jpg" alt="Philip Mohr" width="150" height ="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title:</strong>Low-Complexity Mutual Information Maximizing LDPC Decoding<br>
+        <strong>Speaker:</strong> Phillip Mohr<br>
+        <strong>Date:</strong> Friday, January 6, 2023 at 9:00 am in Los Angeles, Pacific Standard Time<br>
+        <strong>Location:</strong> Zoom<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-10-14">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Jacob_King.JPG" alt="Jacob King" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title:</strong>CRC-Aided Short Convolutional Codes and RCU Bounds for Orthogonal Signaling<br>
+        <strong>Speaker:</strong> Jacob King<br>
+        <strong>Date:</strong> Friday, October 14, 2022 at 9:00 am in Los Angeles, Pacific Standard Time<br>
+        <strong>Location:</strong> Zoom<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-06-03">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Recep_Can_Yavas.jpg" alt="Recep_Can_Yavas" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title:</strong> Approximations in Central Limit Theorem, Moderate Deviations and Large Deviations Regimes<br>
+        <strong>Speaker:</strong> Recep Can Yavas<br>
+        <strong>Date:</strong> Friday, June 3, 2022 at 9:00 AM in Los Angeles, Pacific Daylight Time<br>
+        <strong>Location:</strong> Zoom<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-05-16">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Hengjie_Yang.jpeg" alt="Hengjie Yang" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title:</strong> Ph.D. Defense: Efficient Reliable Communication in the Short Blocklength Regime Through List Decoding and Through Feedback<br>
+        <strong>Speaker:</strong> Hengjie Yang<br>
+        <strong>Date:</strong> Monday, May 16, 2022 at 1:00 PM in Los Angeles, Pacific Daylight Time<br>
+        <strong>Location:</strong> Engineering IV Room 53-125, Tesla Room and Zoom<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-05-06">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Alexander_Sherstov.jpg" alt="Alexander Sherstov" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title:</strong> Communication Complexity Theory: An Invitation<br>
+        <strong>Speaker:</strong> Alexander Sherstov (Department of Computer Science, UCLA)<br>
+        <strong>Date:</strong> Friday, May 6, 2022 at 9:00 am in Los Angeles, Pacific Daylight Time<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-4-1">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/William_Ryan.jpg" alt="William Ryan" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+          <strong>Title:</strong> On Fano Decoding of Short-Message Convolutional Codes<br>
+          <strong>Speaker:</strong> William Ryan<br>
+          <strong>Date:</strong> Friday, April 1, 2022 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-3-4">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Beryl_Sui.jpg" alt="Beryl Sui" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+          <strong>Title:</strong> High-Rate Convolutional Codes with CRC-Aided List Decoding for Short Blocklengths<br>
+          <strong>Speaker:</strong> Beryl Sui<br>
+          <strong>Date:</strong> Friday, March 4, 2022 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-2-25">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Jacob_King.JPG" alt="Jacob King" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+          <strong>Title:</strong> CRC-Aided List Decoding of Convolutional and Polar Codes for Short Messages in 5G<br>
+          <strong>Speaker:</strong> Jacob King<br>
+          <strong>Date:</strong> Friday, February 25, 2022 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-2-18">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Linfang_Wang_disney.png" alt="Linfang Wang" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+          <strong>Title:</strong> Achieving Short-Blocklength RCU bound via CRC List Decoding of TCM with Probabilistic Shaping<br>
+          <strong>Speaker:</strong> Linfang Wang<br>
+          <strong>Date:</strong> Friday, February 18, 2022 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-2-18-2">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Jonathan_Nguyen.JPG" alt="Jonathan Nguyen" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+          <strong>Title:</strong> Neural Normalized Min-Sum Message-Passing vs. Viterbi Decoding for the CCSDS Line Product Code<br>
+          <strong>Speaker:</strong> Jonathan Nguyen<br>
+          <strong>Date:</strong> Friday, February 18, 2022 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2022-1-7">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/images/seminar/Bane_Vasic.jpg" alt="Dr. Bane Vasic" width="150"
+        height="150"> 
+      </div>
+      <div class="col-md-10">
+          <strong>Title:</strong> Local Message-Passing Decoding of Quantum LDPC Codes and Quantum Trapping Sets<br>
+          <strong>Speaker:</strong> Dr. Bane Vasic<br>
+          <strong>Date:</strong> Friday, January 7, 2022 and Friday, February 4, 2022 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2021-11-12">
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <img style="border:3px solid" src="/csl/images/seminar/R_M_Tanner.jpg" alt="R. Michael Tanner" width="150"
+          height="176"> 
+        </div>
+        <div class="col-md-10">
+            <strong>Title:</strong> On Algebraic Design of Quasi-Cyclic LDPC Codes<br>
+            <strong>Speaker:</strong> R. Michael Tanner<br>
+            <strong>Date:</strong> Friday, November 12, 2021 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+        </div>
+      </div>
+    </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2021-10-29">
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <img style="border:3px solid" src="/csl/images/seminar/Jonathan_Nguyen.JPG" alt="Jonathan Nguyen"
+            width="150" height="150">
+        </div>
+        <div class="col-md-10">
+          <strong>Title:</strong> Comparison of Integrated and Independent RF/FSO Transceivers on a Fading Optical Channel<br>
+          <strong>Speaker:</strong> Jonathan Nguyen<br>
+          <strong>Date:</strong> Friday, October 29, 2021 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+        </div>
+      </div>
+    </a>
+
+    <a class="list-group-item" data-toggle="modal" data-target="#2021-10-15">
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <img style="border:3px solid" src="/csl/images/seminar/Peter_Kazakov.png" alt="Peter Kazakov"
+            width="150" height="150">
+        </div>
+        <div class="col-md-10">
+          <strong>Title:</strong> CRC selection for decoding of CRC-polar concatenated codes and further investigations
+          on optimal solutions for 5G<br>
+          <strong>Speaker:</strong> Dr. Peter Kazakov<br>
+          <strong>Date:</strong> Friday, October 15, 2021 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+        </div>
+      </div>
+    </a>
+
+    <a class="list-group-item" data-toggle="modal" data-target="#2021-10-01">
+      <div class="row">
+        <div class="col-md-2 text-center">
+          <img style="border:3px solid" src="/csl/images/seminar/Riccardo_Schiavone.jpg" alt="Riccardo Schiavone"
+            width="150" height="150">
+        </div>
+        <div class="col-md-10">
+          <strong>Title:</strong> Convolutional codes with outer CRC codes: analysis of their ensembles and their
+          performance under some list decoders with bounded list size<br>
+          <strong>Speaker:</strong> Riccardo Schiavone<br>
+          <strong>Date:</strong> Friday, October 1, 2021 at 9:00 am in Los Angeles, Pacific Standard Time<br><br>
+        </div>
+      </div>
+    </a>
+  </ul>
+
+  <!-- Modals containing more information -->
+  <!-- 2021-10-01 -->
+  <div class="modal fade" id="2021-10-01" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Convolutional codes with outer CRC codes, presented by Riccardo Schiavone</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/M6MoT87WiOM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+          </div><br><br>
+          <strong>Abstract:</strong> The UCLA Electrical Engineering Department has developed a practical method to find
+          the best outer CRC code, among all degree-m CRC codes, to be serially concatenated with an inner convolutional
+          code and measure the first terms of the distance spectrum of the overall concatenated code (CC+CRC code). The
+          method is best in terms of distance spectrum of the overall concatenated code. Such concatenation has proved
+          capable of reducing the needed memory of the convolutional code to achieve very good performances at the
+          expense of using a list decoding scheme.
+          The use of random interleavers between outer and inner encoders has proved to be beneficial to enhance the
+          general performances of concatenated codes. Using the ensemble theory and the Poltyrev's tangential sphere
+          bound, it can be shown that the CC+CRC codes are indeed very powerful and, already without interleaver, they
+          match the error-correction performance of the ensemble of the same constituent codes with the best random
+          interleavers.
+          The wrap-around Viterbi algorithm (WAVA) has shown to be a powerful technique for decoding convolutional codes
+          encoded via constraining a tail-biting termination condition (TBCC), and it is beneficial in reducing the list
+          size of decoding the serial concatenation of the same codes with the outer CRC code (TBCC+CRC code).
+          This talk applies the ensemble theory to TBCC+CRC codes on the additive white Gaussian noise (AWGN) channel
+          and it shows the gain of applying WAVA to list decoders for TBCC+CRC codes on the AWGN channel.<br><br>
+          <strong>Speaker Biography:</strong> Riccardo Schiavone is a researcher at the Department of Electronics and
+          Communications at the Politechnic University of Turin (Polito) since 2021, where he also received his B.Sc. in
+          electronic and communications engineering. He received his M.Sc. in communications as a double degree provided
+          by Polito and EURECOM. Currently his research area covers baseband communications for satellite
+          systems.<br><br>
+          <strong>Related References:</strong> <a target="_blank"
+            href="https://webthesis.biblio.polito.it/17932/1/tesi.pdf">[M.S. Thesis]</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2021-10-15 -->
+  <div class="modal fade" id="2021-10-15" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">CRC selection for decoding of CRC-polar concatenated codes and further investigations
+            on optimal solutions for 5G, presented by Dr. Peter Kazakov</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+              <iframe width="500" height="281" src="https://www.youtube.com/embed/XJS0oqOnsyY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br><br>
+          <strong>Abstract:</strong> This talk is dedicated to CRC selection for decoding of CRC-polar concatenated
+          codes. Polar codes were invented and made popular by Arikan in 2008 and now they are widely used in modern
+          communications.
+          An efficient scheme to increase the performance of polar codes at short and moderate block lengths is a
+          concatenation of CRC code and polar code. This approach was introduced by Tal and Vardy in 2011. In order to
+          obtain better result of the concatenation, a CRC code with best error control performance among all CRC codes
+          with fixed number of check bits has to be used. It is well known that different CRC codes are optimal for
+          different code lengths and finding the optimal solution is an NP hard problem. We investigate CRC codes of 11
+          to 19 parity bits and determine those of them which have maximum minimum distance at most often used by
+          CRC-aided polar codes lengths 512, 1024, 2048 and 4096. Some results for CRC codes of 24 parity bits will also
+          be presented.<br><br>
+          <strong>Speaker Biography:</strong> Peter Kazakov received his M.Sc. in Mathematics from Sofia University,
+          Bulgaria (1994) and Doctor degree from TU Delft, The Netherlands (2000). His PhD thesis is in the area of CRC
+          and spherical codes. After the defence of his thesis he works mostly for SW companies such as NXP
+          Semiconductors, ST-Ericsson , ASML, SAP, Skyscanner and currently for AtScale where he combines programming
+          skills with passion for algorithms. He has also a part time contract with the Institute of Mathematics and
+          Informatics of the Bulgarian Academy of Sciences where he continues the research on the topics of his PhD
+          thesis.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2021-10-29 -->
+  <div class="modal fade" id="2021-10-29" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Comparison of Integrated and Independent RF/FSO Transceivers on a Fading Optical
+            Channel, presented by Jonathan Nguyen</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+              <iframe width="500" height="281" src="https://www.youtube.com/embed/h7dfvJIucXE" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br><br>
+          <strong>Abstract:</strong> Hybrid radio-frequency (RF) and free-space optical (FSO) transceivers harvest the
+          high data rates possible with FSO while also maintaining a reliable link when clouds, fog, or dust interfere
+          with the FSO channel. This paper compares two possible transceiver architectures: 1) an integrated RF/FSO
+          modem with joint physical layer processing and 2) independent RF and FSO modems with separate physical layer
+          processing assuming an intelligent router that multiplexes data to the two modems based on their time-varying
+          throughput capabilities. While both architectures provide throughput benefits over a standalone FSO modem, the
+          architecture featuring two independent modems demonstrates superior reliability under optical fading.<br><br>
+          <strong>Speaker Biography:</strong> Jonathan Nguyen received his BS in Electrical Engineering at UCLA in 2021
+          and is currently pursuing his MS at the same school. He expects to finish his graduate studies in March 2022
+          with a focus on Digital Communication Systems. Jonathan has been with UCLA’s Communication Systems Laboratory
+          since March of 2019 where his work has focused on the application of LDPC codes to optical and space
+          communication systems. He is currently looking into the application of LDPC codes to MIMO systems in
+          preparation for his thesis.
+          Jonathan’s industry experience includes work at Physical Optics Corporation, the Aerospace Corporation, and
+          Astranis. At Astranis, he was the responsible engineer in satellite payload systems where he developed IQ
+          imbalance correction and equalization.<br><br>
+          <strong>Related References:</strong> <a target="_blank"
+            href="/csl/files/seminars/Nguyen_Jonathan-Comparison_of_Integrated.pdf">[Paper]</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- 2021-10-29 -->
+  <div class="modal fade" id="2021-10-29" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Comparison of Integrated and Independent RF/FSO Transceivers on a Fading Optical
+            Channel, presented by Jonathan Nguyen</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+              <iframe width="500" height="281" src="https://www.youtube.com/embed/h7dfvJIucXE" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br><br>
+          <strong>Abstract:</strong> Hybrid radio-frequency (RF) and free-space optical (FSO) transceivers harvest the
+          high data rates possible with FSO while also maintaining a reliable link when clouds, fog, or dust interfere
+          with the FSO channel. This paper compares two possible transceiver architectures: 1) an integrated RF/FSO
+          modem with joint physical layer processing and 2) independent RF and FSO modems with separate physical layer
+          processing assuming an intelligent router that multiplexes data to the two modems based on their time-varying
+          throughput capabilities. While both architectures provide throughput benefits over a standalone FSO modem, the
+          architecture featuring two independent modems demonstrates superior reliability under optical fading.<br><br>
+          <strong>Speaker Biography:</strong> Jonathan Nguyen received his BS in Electrical Engineering at UCLA in 2021
+          and is currently pursuing his MS at the same school. He expects to finish his graduate studies in March 2022
+          with a focus on Digital Communication Systems. Jonathan has been with UCLA’s Communication Systems Laboratory
+          since March of 2019 where his work has focused on the application of LDPC codes to optical and space
+          communication systems. He is currently looking into the application of LDPC codes to MIMO systems in
+          preparation for his thesis.
+          Jonathan’s industry experience includes work at Physical Optics Corporation, the Aerospace Corporation, and
+          Astranis. At Astranis, he was the responsible engineer in satellite payload systems where he developed IQ
+          imbalance correction and equalization.<br><br>
+          <strong>Related References:</strong> <a target="_blank"
+            href="/csl/files/seminars/Nguyen_Jonathan-Comparison_of_Integrated.pdf">[Paper]</a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2021-11-12 -->
+  <div class="modal fade" id="2021-11-12" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">On Algebraic Design of Quasi-Cyclic LDPC Codes, presented by R. Michael Tanner</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+              <iframe width="500" height="281" src="https://www.youtube.com/embed/Ioy9TZYoLHU" 
+              title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br><br>
+          <strong>Abstract:</strong> Although algebraic design of
+          error-correcting block codes dominated early development of the field,
+          the effectiveness of probabilistic message-passing decoding algorithms
+          on sparse graphs turned attention to LDPC codes and the construction
+          of graphs. An algebraic graph/code design procedure given here imposes
+          an automorphism group on the graph, using block matrices of circulants
+          of size p, a prime, that also exhibit invariance under the action of a
+          subgroup of the multiplicative group mod p.. The technique is
+          demonstrated on codes of several rates, with focus on rate 1/3
+          quasi-cyclic LDPC codes with Tanner graphs with girth 6. Parity check
+          matrices consist of 2 x 3 blocks. The group invariance converts the
+          problem of avoiding short cycles into that of choosing orbits to solve
+          connectivity constraints. A series of very low density H matrix codes
+          constructed show surprisingly good minimum distances. Simulation
+          results for two length 111 codes are shown.<br><br>
+          <strong>Speaker Biography:</strong> R. Michael Tanner received his
+          B.S., M.S., and Ph.D. degrees from Stanford in Electrical Engineering.
+          He began his academic career at Tennessee State Univ. and in 1972
+          joined the faculty at Univ. of Calif., Santa Cruz in Information and
+          Computer Science. At UCSC he became Department Chair, Dean, and
+          eventually Executive Vice Chancellor of the campus. His technical
+          research focus has been error-correcting coding systems for digital
+          communication, in particular, message-passing decoding algorithms for
+          codes defined by graphs. In 1998 he received a IEEE Information Theory
+          Golden Jubilee Award for his 1981 paper describing graph-based methods
+          for low-complexity coding. Thereafter he was recruited to be Provost
+          at the University of Illinois at Chicago, where he served from 2002 to
+          2011, holding principal responsibility for the academic enterprise and
+          the campus budget. As a nationally recognized academic administrator,
+          he was a proponent of changing the role of copyright in the technical
+          publication process to allow broader access at lower cost. He came to
+          Washington, D.C., in 2011 to serve as Vice President for Academic
+          Affairs at the APLU, the national association of the public research
+          universities, and retired from full-time employment in 2016. He is a
+          Life Fellow of the IEEE, and a Fellow of the California Council on
+          Science and Technology and of the National Academy of Inventors. His
+          personal interests include French language and culture, classical
+          guitar, and tennis.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022-01-07 -->
+  <div class="modal fade" id="2022-1-7" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Local Message-Passing Decoding of Quantum LDPC Codes and Quantum Trapping Sets, presented by Dr. Bane Vasic</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/MZNQhcM6-RI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/H5IMF-_m7y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <a target="_blank" href="files/seminars/Vasic_Bane-2022-01-07.pdf"><strong>Slides</strong></a><br><br> 
+          <strong>Abstract:</strong> Quantum low-density parity-check (QLDPC) codes have been studied in quantum literature for about two decades, but the last two years witnessed their renaissance as several breakthroughs were made. These breakthroughs include a discovery of several new stabilizer code families constructed from classical codes and proving the existence of codes with minimum distance that increases linearly with the codeword length as opposed to the square root increase that was believed to be maximum possible. However, compared to classical codes, Tanner graphs of quantum LDPC codes are additionally constrained by the stabilizer generator constraints, and perform poorly when decoded using local message passing algorithms such as Belief Propagation. So poorly that exhibit shallow error floors much worse than the classical counterparts. Lowering error floor is further hampered by degenerate errors, the errors that result in the same syndrome. It was observed by many research groups, but no systematic explanation of it existed. Researchers therefore relied on post-processing techniques to reduce error floor the Ordered Statistics Decoding (OSD) being the dominant one. However the OSD is not a local algorithm, and its complexity increases cubically with the code dimension (in addition to the BP complexity). In my research group, couple of years ago we have started investigating if QLDPC codes can be decoded using only local decoding algorithms, and this talk is about the status of this research. We have identified that similarly to classical codes, QLDPC also have trapping sets - dense configurations in their Tanner graphs that affect decoder convergence and are behind the error floor phenomenon. We established a framework for studying trapping sets in QLDPC codes that include unique features of “quantumness” of QLDPC codes such as degeneracy and syndrome decoding flavor of the “quantum” BP algorithm. In this talk, we establish a systematic methodology by which one can identify and classify quantum trapping sets according to their topological structure and decoder used.  We show that the knowledge of QTSs can be used to design better QLDPC codes and decoders. Decoding probability improvements of two orders of magnitude in the error floor regime are demonstrated for some practical finite-length QLDPC codes without requiring any post-processing. The talk is intended to classical coding theory researchers, and no background of quantum error correction is needed.<br><br>
+          <strong>Speaker Biography:</strong> Dr. Bane Vasic is a Professor of Electrical and Computer Engineering and Mathematics at the University of Arizona and a Director of the Error Correction Laboratory. He is an inventor of the soft error-event decoding algorithm for intersymbol interference channels with correlated noise, and the key architect of a detector/decoder for Bell Labs data storage read channel chips which were regarded as the best in industry.  His pioneering work on structured low-density parity check (LDPC) error correcting codes based on combinatorial designs has enabled low-complexity iterative decoder implementations. Structured LDPC codes are today adopted in a number of communications standards and data storage systems.  Dr. Vasic’s work on codes on graphs, trapping sets and error floor of iterative decoding algorithms has led to decoders for the binary symmetric channel with best error-floor performance known today. He is a founder of Codelucida, a company developing advanced error correction solutions for communications and data storage. Recently, Codelucida has received numerous innovation awards including 2017 Arizona Innovation Challenge Award from Arizona Commerce Authority, 2018 I-Squared Startup of the Year from Tech Launch Arizona, and Best of Show Award for the Most Innovative Flash Memory Technology at the 2019 Flash Memory Summit, the World largest exhibition of flash memory technologies. Codelucida is a Xilinx Partner providing LDPC Codec IP cores for flash memory controllers. He is an IEEE Fellow, Fulbright Scholar, da Vinci Fellow, and a past Chair of IEEE Data Storage Technical Committee. Currently, he is in the Workforce Technical Advisory Committee within the Quantum Economic Development Consortium (QED-C), established with support from the National Institute of Standards and Technology (NIST) as part of the Federal strategy for advancing quantum information science called for by the National Quantum Initiative Act in 2018. Dr. Vasic is also a PI on a Department of Energy multi-university project led by Fermi National Laboratory to establish a Center for Superconducting Materials and Systems. He is also involved in University of Arizona Quantum Hub, a group of researchers leading effort to establish a graduate program in quantum information science and engineering at the UArizona.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022-02-18 -->
+  <div class="modal fade" id="2022-2-18" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Achieving Short-Blocklength RCU bound via CRC List Decoding of TCM with Probabilistic Shaping by Linfang Wang</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/A3fvzMzXzTg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> This paper applies probabilistic amplitude shaping (PAS) to a cyclic redundancy check (CRC) aided 
+          trellis coded modulation (TCM) to achieve the short-blocklength random coding union (RCU) bound. In the transmitter, the 
+          equally likely message bits are first encoded by distribution matcher to generate amplitude symbols with the desired distribution. 
+          The binary representations of the distribution matcher outputs are then encoded by a CRC. Finally, the CRC-encoded bits are encoded
+           and modulated by Ungerboeck’s TCM scheme, which consists of a $$\frac{k_0}{k_0+1}$$ systematic tail-biting convolutional code and 
+           a mapping function that maps coded bits to channel signals with capacity-achieving distribution. This paper proves that, for the 
+           proposed transmitter, the CRC bits have uniform distribution and that the channel signals have symmetric distribution. In the receiver,
+            the serial list Viterbi decoding (S-LVD) is used to estimate the information bits. Simulation results show that, for the proposed CRC-TCM-PAS 
+            system with 87 input bits and 65-67 8-AM coded output symbols, the decoding performance under additive white Gaussian noise channel achieves 
+            the RCU bound with properly designed CRC and convolutional codes.<br><br>
+          <strong>Speaker Biography:</strong> Linfang Wang received an M.Sc. degree in information and communication engineering from the Harbin 
+          Institute of Technology, Harbin, China, in 2018. He is currently pursuing a Ph.D. degree with the University of California at Los Angeles, 
+          Los Angeles. His current research interest lies in coding theory, especially on LDPC code, trellis code, and the application of 
+          deep learning/ machine learning on channel coding.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022-02-18-2 -->
+  <div class="modal fade" id="2022-2-18-2" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Neural Normalized Min-Sum Message-Passing vs. Viterbi Decoding for the CCSDS Line Product Code by Jonathan Nguyen</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/hFC5doN2XeM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> The Consultative Committee for Space Data Systems (CCSDS) 141.11-O-1 Line Product Code (LPC) 
+          provides a rare opportunity to compare maximum-likelihood decoding and message passing. The LPC considered in this paper 
+          is intended to serve as the inner code in conjunction with a (255,239) Reed Solomon (RS) code whose symbols are bytes of 
+          data. This paper represents the 141.11-O-1 LPC as a bipartite graph and uses that graph to formulate both maximum likelihood 
+          (ML) and message passing algorithms. ML decoding must, of course, have the best frame error rate (FER) performance. However, 
+          a fixed point implementation of a Neural-Normalized MinSum (N-NMS) message passing decoder closely approaches ML 
+          performance with a significantly lower complexity.<br><br>
+          <strong>Speaker Biography:</strong> Jonathan Nguyen received his BS in Electrical Engineering at UCLA in 2021 and is 
+          currently pursuing his MS with a focus on Digital Communication Systems. Jonathan has been with UCLA’s Communication 
+          Systems Laboratory since March of 2019 where his work has focused on the application of LDPC codes to optical and space 
+          communication systems. His current research interests include the analysis of trapping sets in LDPC codes and how to 
+          overcome them<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022-02-25 -->
+  <div class="modal fade" id="2022-2-25" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">CRC-Aided List Decoding of Convolutional and Polar Codes for Short Messages in 5G by Jacob King</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/YbDFhvWbiFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> This paper explores list decoding of convolutional and polar codes for short messages such as those found in the 5G physical broadcast channel.  A cyclic redundancy check (CRC) is used to select a codeword from a list of likely codewords. One example in the 5G standard encodes a 32-bit message with a 24-bit CRC and a 512-bit polar code with additional bits added by repetition to achieve a very low rate of 32/864.  This paper shows that optimizing the CRC length improves the E_b/N_0 performance of this polar code, where $E_b/N_0$ is the ratio of the energy per data bit to the noise power spectral density.  Furthermore, even better E_b/N_0 performance is achieved by replacing the polar code with a tail-biting convolutional code (TBCC) with a distance-spectrum-optimal (DSO) CRC.  This paper identifies the optimal CRC length to minimize the frame error rate (FER) of a rate-1/5 TBCC at a specific value of E_b/N_0.  We also show that this optimized TBCC/CRC can attain the same excellent E_b/N_0 performance with the very low rate of 32/864 of the 5G polar code, where the low rate is achieved through repetition. We show that the proposed TBCC/CRC concatenated code outperforms the PBCH polar code described in the 5G standard both in terms of FER and decoding run time. We also explore the tradeoff between undetected error rate and erasure rate as the CRC size varies.<br><br>
+          <strong>Speaker Biography:</strong> Jacob King received his BS in Electrical Engineering in 2021 and is currently pursuing an MS in Electrical Engineering, focusing on Channel Coding and Information Theory.  He joined UCLA Communication Systems Laboratory in 2020 and has researched into applications of convolutional and polar codes in the 5G standard, and coding over non-coherent FSK channels.  He is currently looking into finding theoretical bounds on the performance for the non-coherent FSK channel.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022-03-04 -->
+  <div class="modal fade" id="2022-3-4" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">High-Rate Convolutional Codes with CRC-Aided List Decoding for Short Blocklengths by Beryl Sui</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/SbCcKTiehPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> Recently, rate-1/ω zero-terminated and tail-biting convolutional codes (ZTCCs and TBCCs) 
+          with cyclic-redundancy-check (CRC)-aided list decoding have been shown to closely approach the random-coding union 
+          (RCU) bound for short blocklengths. This paper designs CRCs for rate-(ω − 1)/ω CCs with short blocklengths, considering 
+          both the ZT and TB cases. The CRC design seeks to optimize the frame error rate (FER) performance of the code resulting 
+          from the concatenation of the CRC and the CC. Utilization of the dual trellis proposed by Yamada et al. lowers the complexity 
+          of CRC-aided serial list Viterbi decoding (SLVD) of ZTCCs and TBCCs. CRC-aided SLVD of the TBCCs closely approaches the RCU 
+          bound at a blocklength of 128.<br><br>
+          <strong>Speaker Biography:</strong> Wenhui (Beryl) Sui is currently in the UCLA ECE Departmental Scholar Program and she expects 
+          to receive her BS and MS in Electrical Engineering by March 2023 with a focus on Signals and Systems. Beryl has been with UCLA’s 
+          Communication Systems Laboratory since June of 2019 where her work has focused on the decoding of tail-biting (TB) and 
+          zero-terminated (ZT) convolutional codes. She is currently looking into the application of dual-trellis in high-rate 
+          convolutional codes in preparation for a journal paper.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022-04-01 -->
+  <div class="modal fade" id="2022-4-1" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">On Fano Decoding of Short-Message Convolutional Codes by William Ryan</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/ldODeD2Mraw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <a target="_blank" href="files/seminars/William_Ryan-2022-04-01.pdf"><strong>Slides</strong></a><br><br> 
+          <strong>Abstract:</strong> The first part of the talk will be a tutorial on the Fano algorithm. Then the performance and complexity of the Fano algorithm with long-memory, zero-terminated convolutional codes are compared to the performance and complexity of CRC-aided list Viterbi decoding of tail-biting convolutional codes. It is shown that the Fano algorithm is 10 to 100 times faster than the list Viterbi decoder, depending on signal-to-noise ratio. Lastly, two algorithms are presented for Fano decoding of  tail-biting convolutional codes -- when the encoder memory is 10 or less. This leaves an open problem.
+          <br><br>
+          <strong>Speaker Biography:</strong> Professor William E. Ryan received the Ph.D. degree in electrical engineering from the University of Virginia in 1988 after receiving the B.S. and M.S. degrees from Case Western Reserve University and the University of Virginia, respectively, in 1981 and 1984.
+          <br><br>
+          Prior to his academic positions, Dr. Ryan held positions in industry for five years, first at The Analytic Sciences Corporation, then at Ampex Corporation, and finally at Applied Signal Technology. From 1993 to 1998, he was an assistant professor and then associate professor in the Department of Electrical and Computer Engineering at New Mexico State University, Las Cruces, NM. From 1998 to 2011, he was on the faculty in the Department of Electrical and Computer Engineering at the University of Arizona, Tucson, AZ, first as an associate professor and then as full professor. He is now a Senior Associate with Zeta Associates, headquartered in Fairfax, VA. 
+          <br><br>
+          Prof. Ryan has approximately 150 publications in the leading conferences and journals in the area of communication theory and channel coding and is author (with Shu Lin) of Channel Codes: Classical and Modern (Cambridge University Press, 2009). His research interests are in coding and signal processing with applications to data storage and wireless data communications. He was an associate editor for the IEEE Transactions on Communications from 1998 through 2005. He is a Fellow of the IEEE.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022-05-06 -->
+  <div class="modal fade" id="2022-05-06" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Communication Complexity Theory: An Invitation by Alexander Sherstov</h4>
+        </div>
+        <div class="modal-body">
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/hagRoZFh_-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <a target="_blank" href="files/seminars/Alexander_Sherstov-2022-05-06.pdf"><strong>Slides</strong></a><br><br> 
+          <strong>Abstract:</strong> Communication complexity theory, initiated by Turing award winner Andrew Yao 40+ years ago, is a central branch of theoretical computer science. The theory studies the minimum amount of communication, measured in bits, required in order to compute functions whose arguments are distributed among several parties. In addition to the basic importance of studying communication as a bottleneck resource, the theory has found a vast number of applications to other research areas, including mechanism design, streaming algorithms, machine learning, data structures, pseudorandom generators, and chip layout.  Communication complexity theory is an abundant source of fascinating research questions that can be easily explained to a high school graduate but require deep mathematics and decades of collective effort to resolve. This talk is an invitation to the course on communication complexity that I will teach in Fall 2022.  The talk will showcase key concepts, problems, and techniques of this fascinating area of theoretical computer science. <br><br>
+          <strong>Speaker Biography:</strong> Alexander Sherstov is an associate professor in the Department of Computer Science at UCLA. His research focuses on the mathematical foundations of computing, including computational complexity, computational learning, and quantum computing. Sherstov is the recipient of an NSF CAREER award, a Sloan Foundation Research Fellowship, a Northrop-Grumman Excellence in Teaching Award from the UCLA Samueli School of Engineering, and an all-campus Distinguished Teaching Award.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2022-05-16 -->
+  <div class="modal fade" id="2022-05-16" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Ph.D. Defense: Efficient Reliable Communication in the Short Blocklength Regime Through List Decoding and Through Feedback, by Hengjie Yang</h4>
+        </div>
+        <div class="modal-body">
+          
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/gCuS0STmQMs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+           <a target="_blank" href="files/seminars/Hengjie_Yang_PhD_Defense_Slides.pdf"><strong>Slides</strong></a><br><br>
+          <strong>Abstract:</strong> This dissertation investigates the efficient reliable communication in the short blocklength regime for classical channels in three different settings: (i) no feedback, (ii) full, noiseless feedback, and (iii) finite, stop feedback.<br><br>
+          In the first case, we focus on the binary-input additive white Gaussian noise (BI-AWGN) channel. A long-standing research problem is to design good linear block codes for this channel. As its primary contribution, we propose the cyclic-redundancy-check (CRC)-aided convolutional codes under serial list Viterbi decoding (SLVD). To design a good CRC-aided convolutional code, we propose the distance-spectrum optimal (DSO) CRC polynomial. We then analyze the performance and complexity of the SLVD for the CRC-aided convolutional code. For transmitting 64 information bits, simulation shows that some CRC-aided convolutional codes beat the random-coding union (RCU) bound at short blocklength.<br><br>
+          In the second case, we focus on the binary asymmetric channel (BAC) with full, noiseless feedback, including the binary symmetric channel (BSC) as a special case. Building on the small-enough-difference (SED) encoder of Naghshvar et al., we generalize it to the BAC and use the generalized encoder to establish a new non-asymptotic achievability bound. In the specific case of BSC, we develop two non-asymptotic achievability bounds. Despite the extreme use of feedback, previous results on full feedback appear to be inferior to Polyanskiy's bound for codes with a limited use of feedback, known as the variable-length stop-feedback (VLSF) codes. In contrast, our bounds show numerically that full noiseless feedback outperforms Polyanskiy's bound for VLSF codes.<br><br>
+          In the third case, we focus on the performance of VLSF codes with finite optimal decoding times for BI-AWGN channel and the BSC. Building on a recent result of Yavas et al. for VLSF codes with finite decoding times, the problem reduces to an integer program of minimizing the upper bound on average blocklength subject to the average error probability and integer constraints. We develop two new methods to numerically solve this program. Numerical evaluations show that Polyanskiy's VLSF bound, which assumes infinite decoding times, can be closely approached with a finite (and relatively small) number of decoding times.
+          <br><br>
+          <strong>Speaker Biography:</strong> Hengjie Yang received the B.Eng. degree in telecommunications engineering from Xidian University, Xi’an, China, in 2017, and the M.S. degree in electrical and computer engineering from the University of California, Los Angeles (UCLA) in 2018, where he is currently pursuing the Ph.D. degree. He was a Modem Systems Engineering Intern with Qualcomm Technologies, Inc. in 2020 and 2021, where he worked on Doppler estimation and polar decoding in 5G. His research is in the area of information theory and channel coding theory with a particular interest in CRC-aided list decoding of convolutional codes and short-blocklength communication with feedback. He was a recipient of the 2021 UCLA Dissertation Year Fellowship.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--#2022-06-03-->
+  <div class="modal fade" id="2022-06-03" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Approximations in Central Limit Theorem, Moderate Deviations and Large Deviations Regimes, by Recep Can Yavas</h4>
+        </div>
+        <div class="modal-body">
+          
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/Ma6cx5aUw2Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> The probability of the sum of independent and identically distributed (i.i.d.) random variables 
+          is one of the most important topics in probability theory. Given a sum of n i.i.d. random variables, the probability that 
+          this sum deviates from the mean by order-√n is characterized by a Gaussian distribution whose parameters are constant with 
+          respect to n. This classical result is known as the CLT. The probability that the sum of n i.i.d. random variables deviates 
+          from the mean by order-n is characterized by Cramer’s theorem, which shows that the probability decays exponentially with n. 
+          This result is commonly known as the LD theorem. Any deviation from the mean with order strictly greater than √n and strictly 
+          smaller than n is said to fall in the moderate deviations (MD) regime. A bound on the probability that an i.i.d. sum deviates 
+          from the mean by some amount in the MD regime is developed by Petrov. This talk introduces tight approximations in these three 
+          regimes and shows their applications in channel coding. 
+          <br><br>
+          <strong>Speaker Biography:</strong> Recep Can Yavas received the B.S. degree from Bilkent University, Ankara, Turkey, in 2016, and the M.S. degree from the California Institute of Technology (Caltech), in 2017, in electrical engineering, where he is going to receive the Ph.D. degree in electrical engineering in this summer. His research interests include information theory and probability theory. <br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--#2022-10-14-->
+  <div class="modal fade" id="2022-10-14" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">  
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">CRC-Aided Short Convolutional Codes and RCU Bounds for Orthogonal Signaling, by Jacob King</h4>
+        </div>
+        <div class="modal-body">
+          
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/AT9C5FB4_Vc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> We extend earlier work on the design of convolutional code-specific CRC codes to 
+          Q-ary alphabets, with an eye toward Q-ary orthogonal signaling. Starting with distance- spectrum optimal, 
+          zero-terminated, Q-ary convolutional codes, we design Q-ary CRC codes so that the CRC/convolutional 
+          concatenation is distance-spectrum optimal. The Q-ary code symbols are mapped to a Q-ary orthogonal signal
+           set and sent over an AWGN channel with noncoherent reception.  We focus on Q=4, rate-1/2 convolutional codes 
+           in our designs.  The random coding union bound and normal approximation are used in earlier works as benchmarks 
+           for performance for distance-spectrum-optimal convolutional codes.  We derive a saddlepoint approximation of 
+           the random coding union bound for the coded noncoherent signaling channel, as well as a normal approximation 
+           for this channel, and compare the performance of our codes to these limits. Our best design is within 0.6 dB 
+           of the RCU bound at a frame error rate of 10^{-4}.
+          <br><br>
+          <strong>Speaker Biography:</strong> Jacob King received his BS in Electrical Engineering in 2021. He is currently 
+          pursuing an MS in Electrical Engineering, focusing on Channel Coding and Information Theory, and working part-time 
+          at Zeta Associates. He joined UCLA Communication Systems Laboratory in 2020 and has researched into applications 
+          of convolutional and polar codes in the 5G standard, and coding over non-coherent FSK channels. He is currently 
+          researching CRC-aided list decoding and designing optimal binary and non-binary convolutional codes.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--#2023-01-06-->
+<div class="modal fade" id="2023-01-06" role="dialog">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Low-Complexity Mutual Information Maximizing LDPC Decoding, by Phillip Mohr</h4>
+      </div>
+      <div class="modal-body">
+        
+        <div class="text-center">
+          <iframe width="500" height="281" src="https://www.youtube.com/embed/LaFxXCxycuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div><br>
+        <strong>Abstract:</strong>  In the last decades, researchers have made intensive efforts to reduce the complexity of message exchange and node operations within LDPC decoders. Recent works used the mutual information as a design objective to enable coarsely quantized exchanged messages using iteration-specific node operations. Near-optimal performance under 3-4 bit resolution is achieved by preserving relevant information within node updates.
+          In this talk, we present approaches that aim at further complexity reduction of the mutual information maximizing decoders.
+          It can be shown that the optimal quantization requires a non-uniform quantizer operation. We reveal that restriction to uniform quantizers achieves near-optimum performance in terms of mutual information preservation and error rates at much lower complexity.
+          To further improve the performance, we consider a check node aware variable node design. Here, we design the quantization at the variable node to explicitly maximize the mutual information preserved in the subsequent check node update. Our results suggest that the extended optimization achieves higher gains the lower the message resolution, which is particularly interesting for 2-bit decoding.
+          Another important aspect is the adaptation of the decoder design to support layered schedules. Restriction to quasi-cyclic LDPC codes facilitates the organization into layers. We evaluate the complexity and performance for horizontal and vertical layered decoders.
+        <br><br>
+        <strong>Speaker Biography:</strong> Philipp Mohr received his B.Sc. and M.Sc. degrees in electrical engineering from the Hamburg University of Applied Sciences, in 2016, 
+          and from the Hamburg University of Technology, in 2018. Since 2019, he has been working on his Ph.D. degree at the Institute of Communications, Hamburg University 
+          of Technology. His research focuses on low-complexity communication system design with a specific interest in low-resolution signal processing and coding theory. 
+          He was a recipient of the ICC 2022 best paper award in communication theory. <br><br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!--#2023-01-20-->
+  <div class="modal fade" id="2023-01-20" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Joint Forward Error Correction and Probabilistic Shaping with Polar Codes Part 1 and Part 2, by Thomas Wiegart</h4>
+        </div>
+        <div class="modal-body">
+          
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/URBF0MnEino" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/k_g-o-w3yXE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> In this talk we show how polar codes can be used for joint distribution
+            matching and forward error correction by using the probabilistic shaping
+            scheme by Honda and Yamamoto (2013). We start with the example of on-off
+            keying (OOK) signaling over the AWGN channel with an average transmit
+            power constraint. As OOK has a non-symmetric optimal input distribution,
+            shaping approaches that are based on the concatenation of a distribution
+            matcher followed by systematic encoding do not result in optimal
+            signaling. Instead, these approaches represent a time sharing scheme
+            where only a fraction of the codeword symbols is shaped. The proposed
+            scheme uses a polar code for joint distribution matching and forward
+            error correction which enables asymptotically optimal signaling.
+            Numerical simulations show a gain of 1.8 dB compared to uniform
+            transmission at a spectral efficiency of 0.25 bits/channel use. We
+            further extend these results to non-binary modulation formats by using a
+            multi-level coding scheme. The proposed multi-level Honda-Yamamoto
+            (MLHY) scheme allows for arbitrary symmetric and asymmetric channel
+            input distributions and achieves the capacity of discrete-input
+            asymmetric channels. Additionally, the MLHY scheme also has a
+            competitive performance in the short-blocklength regime. 
+          <br><br>
+          <strong>Speaker Biography:</strong>  Thomas Wiegart received the B.Sc. degree (with distinction) and the
+            M.Sc. degree (with high distinction) in electrical engineering from
+            Technical University of Munich (TUM) in 2015 and 2018, respectively.
+            He is currently working towards the doctoral degree at the TUM Institute
+            for Communications Engineering under the supervision of Prof. Gerhard
+            Kramer. His research interests include information theory, channel
+            coding, probabilistic shaping, and optical communications.
+            Mr. Wiegart was the recipient of the Walter Gademann Price in 2016 for
+            his Bachelor thesis, and he received an Outstanding Teaching Assistant
+            Award from the student representatives of the Department of Electrical
+            and Computer Engineering, TUM in 2020.<br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--#2023-02-10-->
+  <div class="modal fade" id="2023-02-10" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Efficient Genomic Compression using a Hierarchy of Block Codes and Novel Alignment Algorithms, by Yuval Cassuto </h4>
+        </div>
+        <div class="modal-body">
+          
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/_2IHoS_yioo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> The sequencing of genomic (DNA) data is an emerging field with vast applications in modern biological and medical research. The exploding amount of generated data requires the use of powerful compression tools. In this talk, I will present a new compression scheme for genomic data given as fragments called "reads", which enjoys extremely low encoding complexity compared to state-of-the-art tools. The reads are assumed to be similar to segments of a reference sequence available to the decoder only, thus our multi-layered code construction carries the information needed for both aligning the (coded) read within the reference, and reconstructing the read from a similar reference segment. We first present the scheme for the case of substitution errors only between the reads and the reference, and then extend it to support reads with a single deletion and multiple substitutions. A central tool in this extension is an alignment algorithm using a new distance metric, which is shown analytically to improve alignment performance over existing distance metrics. <br><br>
+          <strong>Speaker Biography:</strong>Yuval Cassuto is an Associate Professor at the Viterbi Department of Electrical and Computer Engineering, Technion – Israel Institute of Technology. His research interests lie at the intersection of the theoretical information sciences and the engineering of practical computing and storage systems. He has served on the technical program committees of leading conferences in both theory and systems. During 2010-2011 he has been a Scientist at EPFL, the Swiss Federal Institute of Technology in Lausanne. From 2008 to 2010 he was a Research Staff Member at Hitachi Global Storage Technologies, San Jose Research Center. In 2018-2019 he held a Visiting Professor position at Western Digital Research, and a Visiting Scholar position at UC Berkeley. He received the B.Sc degree in Electrical Engineering, summa cum laude, from the Technion in 2001, and the M.S. and Ph.D. degrees in Electrical Engineering from the California Institute of Technology, in 2004 and 2008, respectively. From 2000 to 2002, he was with Qualcomm, Israel R&D Center, where he worked on modeling, design and analysis in wireless communications.
+          Dr. Cassuto has won the Best Student Paper Award in data storage from the IEEE Communications Society in 2010 as a student, and in 2019 as an adviser. He also won faculty awards from Qualcomm, Intel, and Western Digital. As an undergraduate student, he won the 2001 Texas Instruments DSP and Analog Challenge $100,000 prize. <br><br>         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!--#2023-06-09-->
+   <div class="modal fade" id="2023-06-09" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Resource Efficient FPGA Implementations of CRC-Aided TB-CC Decoder and AWGN Generator, by Joshua Mathew </h4>
+        </div>
+        <div class="modal-body">
+          
+          <div class="text-center">
+            <iframe width="500" height="281" src="https://www.youtube.com/embed/woEvKAEevQA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div><br>
+          <strong>Abstract:</strong> Efficient, lossless data transmission has proven integral to the operations of modern society. Short block length codes, more specifically convolutional codes, have provided ultra reliable low latency performance in applications such as cellular and satellite communications. Furthermore, crc-aided, tail-biting convolutional codes have shown to approach the RCU bound with a large number of states. Serial List Viterbi Decoding (SLVD) and Parallel List Viterbi Decoding (PLVD) are methods of decoding these codes that approximate Maximum-Likelihood (ML) as the list size increases. This presentation will overview an implementation of PLVD on a field-programmable gate array (FPGA) board as well as justify the algorithmic advantages of PLVD for hardware acceleration. This design has been heavily inspired by the work of Chester Hulse, former member of CSL, and this presentation will illustrate that the modifications result in a more resource efficient implementation. These changes have made room for more hardware accelerated modules such as an additive white gaussian noise (AWGN) generator on board. This presentation will also briefly introduce an implementation of this in hardware.
+          <br><br>
+          <strong>Speaker Biography:</strong> Joshua Mathew is a Fast Track student receiving his B.S. in Electrical Engineering and Applied Mathematics in 2023. He joined UCLA Communication Systems Laboratory in 2022 and is submitting his honors thesis on his work here for completion of the ECE 181 DA/DB capstone project design course.
+          <br><br>         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>

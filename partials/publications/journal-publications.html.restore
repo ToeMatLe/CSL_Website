@@ -1,0 +1,262 @@
+<div class="jumbotron">
+  <div class="container">
+    <h1>Journal Publications</h1>
+  </div>
+</div>
+
+<div class="container">
+  <h1>Published and Accepted Journal Papers</h1>
+  <p>Clicking on a publication will lead to the publication itself or a DOI index.</p>
+  <div class="list-group">
+    <!-- Template
+  <a class="list-group-item" target="_blank" href="#">
+
+  </a>
+  -->
+  <a class="list-group-item" target="_blank" href="https://arxiv.org/pdf/2310.15483.pdf">
+    [54] &nbsp; L. Wang, C. Terrill, D. Divsalar, and R. Wesel, "LDPC Decoding with Degree-Specific Neural Message Weights and RCQ Decoding",
+    IEEE Transactions on Communications, October 2023.
+  </a>
+
+  <a class="list-group-item" target="_blank" href="https://ieeexplore.ieee.org/document/10285355">
+    [54] &nbsp; W. Sui, B. Towell,  A. Asmani, H. Yang, H. Grissett, and R. D. Wesel, "CRC-Aided High-Rate Convolutional Codes with Short Blocklengths",
+    IEEE Transactions on Communications, October 2023.
+  </a>
+
+  <a class="list-group-item" target="_blank" href="https://ieeexplore.ieee.org/document/10273756">
+    [53] &nbsp; A. Antonini, R. Gimelshein and R. Wesel, "Achievable Rates for Low-Complexity Posterior Matching over the Binary Symmetric Channel",
+    IEEE Transactions on Information Theory, [Early Access Version].
+  </a>
+
+  <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TCOMM.2023.3237263">
+    [52] &nbsp; L. Wang, D. Song, F. Areces, T. Wiegart, R. D. Wesel, “Probabilistic Shaping for Trellis-Coded Modulation with CRC-Aided List Decoding”, 
+    IEEE Transactions on Communications, January 2023.
+  </a>
+  <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TIT.2022.3179656">
+    [51] &nbsp; H. Yang, M. Pan, A. Antonini, and R. D. Wesel, “Sequential Transmission Over Binary Asymmetric Channels With Feedback”, IEEE Transactions on Information Theory, vol. 68, no. 11, pp. 7023-7042, November 2022
+  </a>
+  <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TCOMM.2022.3189096">
+    [50] &nbsp; A. Baldauf, A. Belhouchat, S. Kalantarmoradian, A. Sung-Miller, D. Song,
+    N. Wong, and R. D. Wesel, “Efficient Computation of Viterbi Decoder Reliability with an Application to Variable-Length Coding”, 
+    IEEE Transactions on Communications, September 2022.
+  </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TIT.2022.3150717">
+      [49] &nbsp; H. Yang, E. Liang, M. Pan, and R. D. Wesel, “CRC-Aided List Decoding of Convolutional Codes in the Short 
+      Blocklength Regime”, IEEE Transactions on Information Theory, vol. 68, no. 6, pp. 3744-3766, June 2022.
+    </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TCOMM.2022.3149913">
+      [48] &nbsp; L. Wang, C. Terrill , M. Stark, Z. Li, S. Chen, C. Hulse, C. Kuo, R. D. Wesel, G. Bauch, and R.
+      Pitchumani, “Reconstruction-Computation-Quantization (RCQ): A Paradigm for Low Bit Width LDPC Decoding”,
+      IEEE Transactions on Communications, vol. 70, no. 4, pp. 2213-2226, April 2022.
+    </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TMBMC.2020.3035371">
+      [47] &nbsp; N. Farsad, W. Chaung, A. Goldsmith, C. Komminakis, M. Medard, C. Rose, L. Vandenberghe, E. E. Wesel,
+      R. D. Wesel, "Capacities and Optimal Input Distributions for Particle-Intensity Channels", IEEE Transactions on
+      Molecular, Biological, and Multi-scale Communications, vol. 6, no. 3, pp. 220-232, December 2020.
+    </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/JLT.2020.3029371">
+      [46] &nbsp; T. Wiegart, F. D. Ros, M. P. Yankov, F. R. Steiner, S. Gaiarin, R. D. Wesel, "Probabilistically Shaped
+      4-PAM for Short-Reach IM/DD Links with a Peak Power Constraint", Journal of Lightwave Technology, October 2020.
+    </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/OJCOMS.2020.2994048">
+      [45] &nbsp; M. Stark, L. Wang, G. Bauch, R. D. Wesel, "Decoding Rate-Compatible 5G-LDPC Codes with Coarse
+      Quantization Using the Information Bottleneck Method", IEEE Open Journal of the Communications Society, May 2020.
+    </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TCOMM.2019.2919626">
+      [44] &nbsp; H. Wang, S. V. S. Ranganathan, R. D. Wesel, "Variable-Length Coding With Shared Incremental
+      Redundancy: Design Methods and Examples", IEEE Transactions on Communications, vol. 67, no. 9, pp. 5981-5995, June 2019.
+    </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TIT.2019.2895322">
+      [43] &nbsp; S. V. S. Ranganathan, D. Divsalar, R. D. Wesel, "Quasi-Cyclic Protograph-Based Raptor-Like LDPC Codes
+      for Short Block-Lengths", IEEE Transactions on Information Theory, vol. 65, no. 6, pp. 3758-3777, January 2019.
+    </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TCOMM.2018.2889254">
+      [42] &nbsp; A. Heidarzadeh, J. Chamberland, R. D. Wesel, and P Parag, "A Systematic Approach to Incremental
+      Redundancy with Application to Erasure Channels", IEEE Transactions on Communications, vol. 67, no.
+      4, pp. 2620-2631, December 2018.
+    </a>
+    <a class="list-group-item" target="_blank" href="https://doi.org/10.1109/TCOMM.2017.2706728">
+      [41] &nbsp; S. V. S. Ranganathan, T. Mu, and R. D. Wesel, "Allocating Redundancy Between Erasure Coding and
+      Channel Coding when Fading Channel Diversity Grows with Codeword Length", IEEE Transactions on Communications,
+       vol. 65, no. 8, pp. 3226-3237, May 2017.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2016.2607707">
+      [40] &nbsp; H. Wang, N. Wong, T.-Y. Chen, and R. D. Wesel, "Using Dynamic Allocation of Write Voltage to Extend
+      Flash Memory Lifetime", IEEE Transactions on Communications, vol. 64, no. 11, pp. 4474-4486, November 2016.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2016.2538770">
+      [39] &nbsp; K. Vakilinia, S. V. S. Ranganathan, D. Divsalar, and R. D. Wesel, "Optimizing Transmission Lengths for
+      Limited Feedback with Non-Binary LDPC Examples", IEEE Transactions on Communications, vol. 64, no. 6,
+      pp. 2245-2257, March 2016.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2015.2459058">
+      [38] &nbsp; C.-Y. Lou, B. Daneshrad, and R. D. Wesel, "Convolutional-Code-Specific CRC Code Design", IEEE
+      Transactions on Communications 2015, vol. 63, no. 10, pp. 3459-3470, October 2015.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2015.2429583">
+      [37] &nbsp; A. R. Williamson, T.-Y. Chen and R. D. Wesel, "Variable-length Convolutional Coding for Short
+      Blocklengths with Decision Feedback", IEEE Transactions on Communications 2015, vol. 63, no. 7, pp.
+      2389-2403, July 2015.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2015.2404842">
+      [36] &nbsp; T.-Y. Chen, K. Vakilinia, D. Divsalar, and R. D. Wesel, "Protograph-Based Raptor-Like LDPC Codes",
+      IEEE Transactions on Communications, vol. 63, no. 5, pp. 1522-1532, May 2015.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2014.2319264">
+      [35] &nbsp; A. R. Williamson, M. Marshall, and R. D. Wesel, "Reliability-output Decoding of Tail-biting
+      Convolutional Codes", IEEE Transactions on Communications,  vol. 62, no. 6, pp. 1768-1778, June 2014.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/JSAC.2014.140508">
+      [34] &nbsp; J. Wang, K. Vakilinia, T.-Y. Chen, T. Courtade, G. Dong, T. Zhang, H. Shankar, and R. D. Wesel,
+      "Enhanced Precision Through Multiple Reads for LDPC Decoding in Flash Memories" IEEE Journal on Selected Areas in
+      Communication, vol. 32, no. 5, pp. 880-891, May 2014.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TIT.2013.2290993">
+      [33] &nbsp; T. A. Courtade and R. D. Wesel, "Coded Cooperative Data Exchange in Multihop Networks," IEEE
+      Transactions on Information Theory, vol. 60, no. 2, pp. 1136-1158, February 2014.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TIT.2012.2235122">
+      [32] &nbsp; J. Wang, L. Dolecek and R. Wesel, "The Cycle Consistency Matrix Approach to Absorbing Sets in
+      Separable Circulant-Based LDPC Codes," IEEE Transactions on Information Theory, vol. 59, no. 4, pp. 2293-2314,
+      April 2013.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TIT.2012.2237095">
+      [31] &nbsp; B. Xie, T. A. Courtade, and R. D. Wesel, "Optimal Encoding Schemes for Several Classes of Discrete
+      Degraded Broadcast Channels," IEEE Transactions on Information Theory, vol. 59, no. 3, pp. 1360-1378, March 2013.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2012.010512.070116">
+      [30] &nbsp; M. Griot, A. I. Vila Casado, W.-Y. Weng, H. Chan, J. Wang and R. D. Wesel, "Nonlinear Trellis Codes
+      for Binary-Input Binary-Output Multiple Access Channels With Single-User Decoding," IEEE Transactions on
+      Communications, vol. 60, no. 2, pp. 364-374, February 2012.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2011.062311.090277">
+      [29] &nbsp; T. A. Courtade and R. D. Wesel, "Optimal Allocation of Redundancy Between Packet-Level Erasure Coding
+      and Physical-Layer Channel Coding in Fading Channels," IEEE Transactions on Communications, vol. 59, no. 8, pp.
+      2101-2109, August 2011.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2010.101910.070303">
+      [28] &nbsp; A. I. Vila Casado, M. Griot, and R. D. Wesel, "LDPC Decoders with Informed Dynamic Scheduling," IEEE
+      Transactions on Communications, vol. 58, no. 12, pp 3470-3479, December 2010.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2009.0901.060256">
+      [27] &nbsp; A. I. Vila Casado, W.-Y. Weng, S. Valle, and R. D. Wesel, "Multiple-Rate Low-Density Parity-Check
+      Codes with Constant Blocklength," IEEE Transactions on Communications, Vol. 57, No. 1, pp 75-83, January 2009.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCSI.2008.925365">
+      [26] &nbsp; H. Chan, A. I. Vila Casado, J. Basak, M. Griot, W.-Y. Weng, R. D. Wesel, B. Jalali, E. Yablonovitch,
+      I. Verbauwhede, "Demonstration of Uncoordinated Multiple Access in Optical Communications," IEEE Transactions on
+      Circuits and Systems-I: Regular Papers, vol. 55, no. 10, pp. 3259-3269, Nov. 2008.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2008.060530">
+      [25] &nbsp; W.-Y. Weng, C. Kose, B. Xie and R. D. Wesel, "Universal Serially Concatenated Trellis Coded Modulation
+      for Space-Time Channels," IEEE Transactions on Communications, vol. 56, no. 10, pp. 1636-1646, Oct. 2008.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TIT.2008.928298">
+      [24] &nbsp; B. Xie, M. Griot, A. I. Vila Casado, and R. D. Wesel, "Optimal Transmission Strategy and Explicit
+      Capacity Region for Broadcast Z Channels," IEEE Transactions on Information Theory, vol. 53, no. 9, pp. 4296-4304,
+      Sept. 2008.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TIT.2007.903156">
+      [23] &nbsp; J. Shi and R. D. Wesel, "A Study on Universal Codes with Finite Block Lengths," IEEE Transactions on
+      Information Theory, vol. 54, no. 9, pp. 3066-3074, Sept. 2007.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/LCOM.2007.348296">
+      [22] &nbsp; M. Griot, W.-Y. Weng and R. D. Wesel, "A Tighter Bhattacharyya Bound for Decoding Error Probability,"
+      IEEE Communications Letters, vol. 11, no. 4, pp. 346-347, April 2007.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2006.885081">
+      [21] &nbsp; C. R. Jones, T. Tian, J. Villasenor and R. D. Wesel, "The Universal Operation of LDPC Codes Over
+      Scalar Fading Channels," IEEE Transactions on Communications, vol. 55, no. 1, pp. 122-132, Jan. 2007.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2006.877967">
+      [20] &nbsp; Kose C. and Wesel R. D., "Universal Space-Time Codes from Demultiplexed Trellis Codes," IEEE
+      Transactions on Communications, vol. 54, no. 7, July 2006.
+    </a>
+    <!-- What is this?
+  <a href="http://www.ee.ucla.edu/%7Eweselpub/documents/tcom2col.ps"></a>
+  -->
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/LCOMM.2006.1638622">
+      [19] &nbsp;F.Peng, W.Ryan. and R.D.Wesel, "Surrogate-Channel Design of Universal LDPC Codes," IEEE Communications
+      Letters, vol. 10, no. 6, pp. 480-482, June 2006.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TIT.2005.851725">
+      [18] &nbsp; A. Ramamoorthy, J. Shi and R. D. Wesel, "On the Capacity of Network Coding for Random Networks," IEEE
+      Transactions on Information Theory, Vol. 51, no. 8, pp. 2878-2885, Aug. 2005.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2004.833023">
+      [17] &nbsp; Wesel R. D., "Reduced-State Representations for Trellis Codes Using Constellation Symmetry," IEEE
+      Transactions on Communications, vol. 52, no. 8, pp. 1302-1310, Aug. 2004.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2004.833048">
+      [16] &nbsp; Tian T., Jones C., Villasenor J. D. and Wesel R. D., "Selective Avoidance of Cycles in Irregular LDPC
+      Code Construction," IEEE Transactions on Communications, vol. 52, no. 8, pp. 1242-1247, Aug. 2004.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2004.823646">
+      [15] &nbsp; Sun T. W., Wesel R. D., Shane M. R. and Jarett K., "Superposition Turbo-TCM for Multi-Rate Broadcast,"
+      IEEE Transactions on Communications, vol. 52, no. 3, pp. 368-371, March 2004.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TCOMM.2003.822702">
+      [14] &nbsp; Shi J. and Wesel R. D., "Efficient Computation of Trellis Code Generating Functions," IEEE
+      Transactions on Communications, Feb. 2004, vol. 52, no. 2, pp. 219-227.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TSP.2003.818159">
+      [13] &nbsp; Matache A. and Wesel R. D., "Universal Trellis Codes for Diagonally Layered Space-Time Systems," IEEE
+      Transactions on Signal Processing, vol. 51, no. 11, pp. 2773-2783, Nov. 2003, Special Issue on "MIMO Wireless".
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TIT.2003.817459">
+      [12] &nbsp; Kose C. and Wesel R. D., "Universal Space-Time Trellis Codes," IEEE Transactions on Information
+      Theory, vol. 40, no. 10, pp. 2717-2727,  Oct. 2003, Special Issue on "Space-Time Transmission, Reception, Coding and
+      Signal Design".
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/TIT.2002.1013153">
+      [11] &nbsp; Q. Zhang, P. K. Varshney, and R. D. Wesel, "Optimal Bi-level quantization of I.I.D. Sensor
+      Observations for Binary Hypothesis Testing," IEEE Transactions on Information Theory, vol. 48, no. 7,
+      pp. 2105-2111, July 2002.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/78.995063">
+      [10] &nbsp; C. Komninakis, C. Fragouli, A. H. Sayed, and R. D. Wesel, "Multi-Input, Multi-output Fading Channel
+      Tracking and Equalization Using Kalman Estimation," IEEE Transactions on Signal Processing, vol. 50, no.
+      5, pp. 1065-1076, May 2002.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/26.983326">
+      [9] &nbsp; A. Bernard, X. Liu, R. D. Wesel, and A. Alwan, "Multi-rate Transmission of Speech Using Rate-Compatible
+      Trellis Codes and Embedded Source Codes," IEEE Transactions on Communications,
+       vol. 50, no. 2, pp. 309-320, Feb. 2002.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/18.945255">
+      [8] &nbsp; R. D. Wesel, X. Liu, C. Komninakis, and J. M. Cioffi, "Constellation Labeling for Linear Encoders,"
+      IEEE Transactions on Information Theory, vol. 47, no. 6, pp. 2417-2432, Sept. 2001.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/26.950344">
+      [7] &nbsp; P Ormeci, X. Liu, D. L. Goeckel, R. D. Wesel, "Adaptive Bit-Interleaved Coded Modulation," IEEE
+      Transactions on Communications, vol. 49, no. 9, pp. 1572-1581, Sept. 2001.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/49.947035">
+      [6] &nbsp; C. Komninakis and R. D. Wesel, "Joint Iterative Channel Estimation and Decoding in Flat, Correlating
+      Rayleigh Fading," IEEE Journal on Selected Areas in Communications, Special Issue "The Turbo Principle: From
+      Theory to Practice," vol. 19, no. 9. pp. 1706-1717, Sept. 2001.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/26.911450">
+      [5] &nbsp; C. Fragouli and R. D. Wesel, "Turbo encoder design for symbol interleaved parallel concatenated trellis
+      coded modulation," IEEE Transactions on Communications, vol. 49, no. 3, pp. 425-435, March 2001.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/18.904560">
+      [4] &nbsp; W. Shi, T. W. Sun, and R. D. Wesel, "Quasi-Convexity and Optimal Binary Fusion for Distributed
+      Detection with Identical Sensors in Generalized Gaussian Noise," IEEE Transactions on Information Theory,
+       vol. 47, no. 1, pp 446-450, Jan. 2001.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/26.848553">
+      [3] &nbsp; R. D. Wesel, X. Liu, and W. Shi, "Trellis Codes for Periodic Erasures," IEEE Transacations on
+      Communications, vol. 48, no. 6, pp 938-947, June 2000.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/4234.757202">
+      [2] &nbsp; R. D. Wesel and J. M. Cioffi, "Trellis Codes for Periodic Interleavers," IEEE Communications Letters,
+      vol. 3, no. 4, pp 103-105, April 1999.
+    </a>
+    <a class="list-group-item" target="_blank" href="http://dx.doi.org/10.1109/18.661530">
+      [1] &nbsp; R. D. Wesel, and J. Cioffi, "Achievable Rates for Tomlinson-Harashima Precoding," IEEE Transactions on
+      Information Theory, vol. 44, no. 2, pp 824-831, March 1998.
+    </a>
+  </div>
+
+</div>
