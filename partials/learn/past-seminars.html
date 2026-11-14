@@ -30,6 +30,34 @@ $('.modal').on('hide.bs.modal', function() {
     </div>
   </a>
   -->
+  <a class="list-group-item" data-toggle="modal" data-target="#2023-11-30">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/files/seminars/berylSui.jpg" alt="Beryl Sui" width="114" height ="150"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title: </strong>Channel polarization: A method for constructing capacity-achieving codes for symmetric binary-input memoryless channels<br>
+        <strong>Speaker: </strong>Beryl Sui<br>
+        <strong>Date:</strong> Thursday, November 30, 2023 at 9:00 am in Los Angeles, Pacific Standard Time<br>
+        <strong>Location: </strong>Zoom<br><br>
+      </div>
+    </div>
+  </a>
+
+  <a class="list-group-item" data-toggle="modal" data-target="#2023-11-20">
+    <div class="row">
+      <div class="col-md-2 text-center">
+        <img style="border:3px solid" src="/csl/files/seminars/Semira headshot RE.jpg" alt="Semira Galijasevic" width="150" height ="100"> 
+      </div>
+      <div class="col-md-10">
+        <strong>Title: </strong>Bandwidth Efficient and Rate-Matched Low-Density Parity-Check Coded Modulation<br>
+        <strong>Speaker: </strong>Semira Galijasevic<br>
+        <strong>Date:</strong> Monday, November 20, 2023 at 9:00 am in Los Angeles, Pacific Standard Time<br>
+        <strong>Location: </strong>Zoom<br><br>
+      </div>
+    </div>
+  </a>
+
   <a class="list-group-item" data-toggle="modal" data-target="#2023-06-09">
     <div class="row">
       <div class="col-md-2 text-center">
@@ -907,6 +935,52 @@ $('.modal').on('hide.bs.modal', function() {
           <strong>Abstract:</strong> The sequencing of genomic (DNA) data is an emerging field with vast applications in modern biological and medical research. The exploding amount of generated data requires the use of powerful compression tools. In this talk, I will present a new compression scheme for genomic data given as fragments called "reads", which enjoys extremely low encoding complexity compared to state-of-the-art tools. The reads are assumed to be similar to segments of a reference sequence available to the decoder only, thus our multi-layered code construction carries the information needed for both aligning the (coded) read within the reference, and reconstructing the read from a similar reference segment. We first present the scheme for the case of substitution errors only between the reads and the reference, and then extend it to support reads with a single deletion and multiple substitutions. A central tool in this extension is an alignment algorithm using a new distance metric, which is shown analytically to improve alignment performance over existing distance metrics. <br><br>
           <strong>Speaker Biography:</strong>Yuval Cassuto is an Associate Professor at the Viterbi Department of Electrical and Computer Engineering, Technion – Israel Institute of Technology. His research interests lie at the intersection of the theoretical information sciences and the engineering of practical computing and storage systems. He has served on the technical program committees of leading conferences in both theory and systems. During 2010-2011 he has been a Scientist at EPFL, the Swiss Federal Institute of Technology in Lausanne. From 2008 to 2010 he was a Research Staff Member at Hitachi Global Storage Technologies, San Jose Research Center. In 2018-2019 he held a Visiting Professor position at Western Digital Research, and a Visiting Scholar position at UC Berkeley. He received the B.Sc degree in Electrical Engineering, summa cum laude, from the Technion in 2001, and the M.S. and Ph.D. degrees in Electrical Engineering from the California Institute of Technology, in 2004 and 2008, respectively. From 2000 to 2002, he was with Qualcomm, Israel R&D Center, where he worked on modeling, design and analysis in wireless communications.
           Dr. Cassuto has won the Best Student Paper Award in data storage from the IEEE Communications Society in 2010 as a student, and in 2019 as an adviser. He also won faculty awards from Qualcomm, Intel, and Western Digital. As an undergraduate student, he won the 2001 Texas Instruments DSP and Analog Challenge $100,000 prize. <br><br>         
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!--#2023-11-30-->
+   <div class="modal fade" id="2023-11-30" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Channel polarization: A method for constructing capacity-achieving codes for symmetric binary-input memoryless channels, by Beryl Sui</h4>
+        </div>
+        <div class="modal-body">
+          <strong>Abstract:</strong> This is a tutorial presentation of the paper “Channel polarization: A method for constructing capacity-achieving codes for symmetric binary-input memoryless channels” by Erdal Arıkan. In Arıkan’s paper, a method is proposed, called channel polarization, to construct code sequences that achieve the symmetric capacity I(W) of any given binary-input discrete memoryless channel (B-DMC) W. The symmetric capacity is the highest rate achievable subject to using the input letters of the channel with equal probability. Channel polarization refers to the fact that it is possible to synthesize, out of N independent copies of a given B-DMC W, a second set of N binary-input channels {W_N^{i}: i <= i <= N} such that, as N becomes large, the fraction of indices i for which I(W_N^(i)) is near 1 approaches I(W) and the fraction for which I(W_N^(i)) is near 0 approaches 1-I(W). The polarized channels {W_N^(i)} are well-conditioned for channel coding: one need only send data at rate 1 through those with capacity near 1 and at rate 0 through the remaining. Codes constructed on the basis of this idea are called polar codes. The paper proves that, given any B-DMC W with I(W) > 0 and any target rate R << I(W), there exists a sequence of polar codes {C_n; n >=1} such that C_n has block-length N=2^n, rate >= R, and probability of block error under successive cancellation decoding bounded as P_e(N,R) <= O(N^-1/4) independently of the code rate. This performance is achievable by encoders and decoders with complexity O(N logN) for each.
+          <br><br>
+          <strong>Speaker Biography:</strong> Wenhui Sui (Student Member, IEEE) received the B.S. and M.S. degrees in electrical engineering from the University of California at Los Angeles (UCLA) in 2023, where she is currently pursuing the Ph.D. degree with the Communications Systems Laboratory. Her research interests include convolutional codes, LDPC codes, and channel coding theory. Her honors include 2022 UCLA ECE Fast Track to Success Honors and 2023 UCLA ECE Departmental Scholar.
+          <br><br>
+          <strong>Related References:</strong> E. Arikan, “Channel Polarization: A Method for Constructing Capacity-Achieving Codes for Symmetric Binary-Input Memoryless Channels,” in IEEE Transactions on Information Theory, vol. 55, no. 7, pp. 3051-3073, July 2009, doi: 10.1109/TIT.2009.2021379.
+          <br><br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
+        </div>
+      </div>
+    </div>
+  </div>
+
+   <!--#2023-11-20-->
+   <div class="modal fade" id="2023-11-20" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Bandwidth Efficient and Rate-Matched Low-Density Parity-Check Coded Modulation, by Semira Galijasevic</h4>
+        </div>
+        <div class="modal-body">
+          <strong>Abstract:</strong> A new coded modulation scheme is proposed. At the transmitter, the concatenation of a distribution matcher and a systematic binary encoder performs probabilistic signal shaping and channel coding. At the receiver, the output of a bitwise demapper is fed to a binary decoder. No iterative demapping is performed. Rate adaption is achieved by adjusting the input distribution and the transmission power. The scheme is applied to bipolar amplitude- shift keying (ASK) constellations with equidistant signal points and it is directly applicable to two-dimensional quadrature ampli- tude modulation (QAM). The scheme is implemented by using the DVB-S2 low-density parity-check (LDPC) codes. At a frame error rate of 10−3, the new scheme operates within less than 1.1 dB of the AWGN capacity 12 log2(1 + SNR) at any spectral efficiency between 1 and 5 bits/s/Hz by using only 5 modes, i.e., 4-ASK with code rate 2/3, 8-ASK with 3/4, 16-ASK and 32-ASK with 5/6, and 64-ASK with 9/10.
+          <br><br>
+          <strong>Speaker Biography:</strong> Semira Galijasevic (Student Member, IEEE) received her BS degree (Summa Cum Laude) and MS degree in Electrical Engineering from the University of California at Los Angeles (UCLA) in 2021 and 2023, respectively. She is currently pursuing a Ph.D. degree in Electrical Engineering at UCLA. Her research interests include channel coding theory, LDPC codes and coding for storage.
+          <br><br>
+          <strong>Related References:</strong> G. Böcherer, F. Steiner and P. Schulte, "Bandwidth Efficient and Rate-Matched Low-Density Parity-Check Coded Modulation," in IEEE Transactions on Communications, vol. 63, no. 12, pp. 4651-4665, Dec. 2015, doi: 10.1109/TCOMM.2015.2494016
+          <br><br>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button> 
